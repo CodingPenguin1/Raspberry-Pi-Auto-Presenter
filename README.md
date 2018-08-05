@@ -10,6 +10,7 @@ Once the drive is plugged in, the following will happen:
 4. `presentation.pptx` will be deleted from the desktop (once the presentation finishes)
 
 # Setup
-1. Copy `autopresenterRunner.desktop` to `/home/pi/.local/share/applications`
-2. Copy `autopresent.sh` to `/home/pi`
-3. Edit line 8 of `autopresent.sh` to read `cp /media/pi/NAMEOFUSBDRIVE/presentation.pptx Desktop/ &&` where "NAMEOFUSBDRIVE" is the name of whatever drive you want to use. 
+1. If your Raspberry Pi doesn't have Raspbian OS installed, follow [these](https://www.raspberrypi.org/documentation/installation/installing-images/) instructions
+2. Copy `autopresenterRunner.desktop` to `/home/pi/.local/share/applications`
+3. Copy `autopresent.sh` to `/home/pi`
+4. Edit line 8 of `autopresent.sh` to read `cp /media/pi/NAMEOFUSBDRIVE/presentation.pptx Desktop/ &&` where "NAMEOFUSBDRIVE" is the name of whatever drive you want to use.
