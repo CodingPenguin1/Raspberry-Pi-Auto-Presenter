@@ -1,8 +1,0 @@
-[Desktop Entry]
-Comment=
-Terminal=false
-Name=autopresenterRunner
-Exec=/home/pi/autopresent.sh
-Type=Application
-Icon=gnome-panel-launcher
-NoDisplay=true
